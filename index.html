@@ -3,64 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Ethan Batick</title>
-    <style>
-        @font-face {
-            font-family: 'standardText';
-            src: url('fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
-        }
-
-        .centerText{
-            text-align: center;
-        }
-
-        .largeText{
-            font-size: 100px;
-        }
-
-        .mediumText{
-            font-size: 50px;
-        }
-
-        .smallText{
-            font-size: 30px;
-        }
-
-        .white {
-            background-color: white;
-            color: black;
-            font-family: 'standardText', sans-serif;
-        }
-
-        .black {
-            background-color: black;
-            color: white;
-            font-family: 'standardText', sans-serif;
-        }
-
-        .dropdown{
-            display:block;
-        }
-        
-        .dropdown-stuff{
-            display: none;
-        }
-
-        .dropdown:hover .dropdown-stuff{
-            display:block;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
     <body class="black">
         <div class="white centerText largeText">
             Ethan Batick
         </div>
-        <div class="black mediumText centerText dropdown">
+        <div class="black mediumText centerText">
             Please visit the options below to learn about who I am
         </div>
-        <div class="dropdown-stuff largeText white">
-            hello
+        <div class="banner1">
+            <div>
+                <br><br>
+                <button class="buttonMini button-black-border buttonHoverGrow" style="margin-left: 5%; margin-right: 5%;">About</button>
+                <button class="buttonMini button-black-border buttonHoverGrow" style="margin-left: 5%; margin-right: 5%;">Projects</button>
+                <button class="buttonMini button-black-border buttonHoverGrow" style="margin-left: 5%; margin-right: 5%;">Pictures</button>
+            </div>
         </div>
     </body>
 </html>
