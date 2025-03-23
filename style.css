@@ -96,6 +96,10 @@ button.buttonMini{
     transform: scale(1.5);
 }
 
+a{
+    color:black
+}
+
 .banner1{
     background-image: url("images/spacePic1.png");
     background-size: cover;
