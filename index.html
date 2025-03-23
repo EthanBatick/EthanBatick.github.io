@@ -1,17 +1,66 @@
 <!DOCTYPE html>
-
-<style>
-    body
-    {
-        background-color: grey;
-        color: black;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-</style>
-
 <html>
+<head>
+    <meta charset="UTF-8">
     <title>Ethan Batick</title>
-    <body>
-        Hello and welcome to my first Website!
+    <style>
+        @font-face {
+            font-family: 'standardText';
+            src: url('fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+        }
+
+        .centerText{
+            text-align: center;
+        }
+
+        .largeText{
+            font-size: 100px;
+        }
+
+        .mediumText{
+            font-size: 50px;
+        }
+
+        .smallText{
+            font-size: 30px;
+        }
+
+        .white {
+            background-color: white;
+            color: black;
+            font-family: 'standardText', sans-serif;
+        }
+
+        .black {
+            background-color: black;
+            color: white;
+            font-family: 'standardText', sans-serif;
+        }
+
+        .dropdown{
+            display:block;
+        }
+        
+        .dropdown-stuff{
+            display: none;
+        }
+
+        .dropdown:hover .dropdown-stuff{
+            display:block;
+        }
+
+    </style>
+
+</head>
+    <body class="black">
+        <div class="white centerText largeText">
+            Ethan Batick
+        </div>
+        <div class="black mediumText centerText dropdown">
+            Please visit the options below to learn about who I am
+        </div>
+        <div class="dropdown-stuff largeText white">
+            hello
+        </div>
     </body>
 </html>
